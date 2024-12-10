@@ -1,0 +1,33 @@
+body {
+  background-color: #64442c;
+  text-align: center;
+}
+.intro{
+  font-family: times;
+  background-color: white;
+  border: #6cc44c solid 8px;
+  border-radius: 20px;
+  margin: 15px 15% 10px 15%;
+  padding: 0 0 2px 0;
+}
+.intro-p{
+  font-family: arial;
+  color: white;
+  background-color: #ac7c54;
+  border: green solid 10px;
+  padding: 2px;
+  margin: 0px 0 5px 0;
+}
+.info{
+  font-family: arial;
+  background-color: #bcbcbc;
+  border: #424242 solid 8px;
+  margin: 0px 10% 0 10%;
+}
+.fotos-h{
+  font-family: times;
+  background-color: white;
+  border: #6cc44c solid 8px;
+  border-radius: 20px;
+  margin: 20px 30% 5px 30%;
+}
