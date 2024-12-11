@@ -31,6 +31,16 @@ body {
   border-radius: 20px;
   margin: 20px 30% 10px 30%;
 }
+.data{
+  font-family: arial;
+  font-size: 20px;
+  text-align: left;
+  color: white;
+  background-color: #ac7c54;
+  border: green solid 6px;
+  padding: 2px 0 0px 5px;
+  margin: 0 40% 5px 0px;
+}
 img{
   width: 95%; height: 240px;
   border: #84d463 solid 10px;
