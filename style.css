@@ -1,45 +1,57 @@
+@font-face{
+  font-family: minecraft;
+  src: url('fonts/minecraft.ttf') format('truetype')
+}
+@font-face{
+  font-family: mine-titulo;
+  src: url('fonts/mine-titulo.ttf') format('truetype')
+}
 body {
   background-color: #64442c;
   text-align: center;
 }
 .intro{
-  font-family: times;
+  font-family: mine-titulo;
   background-color: white;
   border: #6cc44c solid 8px;
   border-radius: 20px;
-  margin: 15px 15% 10px 15%;
-  padding: 0 0 2px 0;
+  margin: 15px 10% 10px 10%;
+  padding: 5.5px 0 2px 0;
 }
 .intro-p{
-  font-family: arial;
+  font-family: minecraft;
+  font-size: 14px;
   color: white;
   background-color: #ac7c54;
   border: green solid 10px;
-  padding: 2px;
+  padding: 4px 0 3px 0;
   margin: 0px 0 5px 0;
 }
 .info{
-  font-family: arial;
+  font-family: minecraft;
   background-color: #bcbcbc;
   border: #424242 solid 8px;
-  margin: 0px 10% 80px 10%;
+  margin: 0px 0% 80px 0%;
+  padding: 5px 0 5px 0;
 }
 .fotos-h{
-  font-family: times;
+  font-family: mine-titulo;
   background-color: white;
   border: #6cc44c solid 8px;
   border-radius: 20px;
-  margin: 20px 30% 10px 30%;
+  margin: 20px 25% 10px 25%;
+  padding: 2px 0 0 0;
 }
 .data{
-  font-family: arial;
+  font-family: minecraft;
   font-size: 20px;
+  font-weight: normal;
   text-align: left;
-  color: white;
+  color: yellow;
   background-color: #ac7c54;
   border: green solid 6px;
-  padding: 2px 0 0px 5px;
-  margin: 0 40% 5px 0px;
+  padding: 8px 0 3px 5px;
+  margin: 0 20% 5px 0px;
 }
 img{
   width: 95%; height: 240px;
@@ -47,10 +59,11 @@ img{
   margin: 0 0 0 0;
 }
 .leg{
-  font-family: arial;
-  color: lightgray;
+  font-family: minecraft;
+  font-size: 15px;
+  color: white;
   background-color: saddlebrown;
   border: #ac7c54 solid 3px;
   margin: 0 0 30px 0;
-  padding: 5px 0 5px 0;
+  padding: 6px 0 5px 0;
 }
