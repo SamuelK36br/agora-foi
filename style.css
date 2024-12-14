@@ -53,6 +53,23 @@ body {
   padding: 8px 0 3px 5px;
   margin: 0 20% 5px 0px;
 }
+.registros{
+  font-family: mine-titulo;
+  background-color: white;
+  border: #6cc44c solid 8px;
+  border-radius: 20px;
+  margin: 80px 15% 10px 15%;
+}
+.registros-p{
+  font-family: minecraft;
+  font-size: 14px;
+  text-align: left;
+  color: white;
+  background-color: #ac7c54;
+  border: green solid 10px;
+  padding: 7px 0 5px 5px;
+  margin: 0px 0 5px 0;
+}
 img{
   width: 95%; height: 240px;
   border: #84d463 solid 10px;
@@ -65,5 +82,5 @@ img{
   background-color: saddlebrown;
   border: #ac7c54 solid 3px;
   margin: 0 0 30px 0;
-  padding: 6px 0 5px 0;
+  padding: 6px 4px 5px 4px;
 }
