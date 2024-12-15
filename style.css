@@ -31,7 +31,7 @@ body {
   font-family: minecraft;
   background-color: #bcbcbc;
   border: #424242 solid 8px;
-  margin: 0px 0% 80px 0%;
+  margin: 0px 0% 40px 0%;
   padding: 5px 0 5px 0;
 }
 .fotos-h{
@@ -39,7 +39,7 @@ body {
   background-color: white;
   border: #6cc44c solid 8px;
   border-radius: 20px;
-  margin: 20px 25% 10px 25%;
+  margin: 40px 25% 10px 25%;
   padding: 2px 0 0 0;
 }
 .data{
@@ -58,7 +58,7 @@ body {
   background-color: white;
   border: #6cc44c solid 8px;
   border-radius: 20px;
-  margin: 80px 15% 10px 15%;
+  margin: 0px 15% 10px 15%;
 }
 .registros-p{
   font-family: minecraft;
