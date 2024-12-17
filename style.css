@@ -75,6 +75,9 @@ img{
   border: #84d463 solid 6px;
   margin: 0 0 0 0;
 }
+.img2 {
+  height: 150px;
+}
 .leg{
   font-family: minecraft;
   font-size: 15px;
@@ -83,4 +86,8 @@ img{
   border: #ac7c54 solid 3px;
   margin: 0 0 30px 0;
   padding: 6px 4px 5px 4px;
+}
+a {
+  color: red;
+  font-weight: bold;
 }
