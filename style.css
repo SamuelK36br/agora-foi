@@ -3,7 +3,7 @@
   font-family: mine-titulo;
   src: url('fonts/mine-titulo.ttf') format('truetype')
 }
-/*/*Fonte usada como TEXTO PADRÃO:*/*/
+/*Fonte usada como TEXTO PADRÃO:*/
 @font-face {
   font-family: minecraftseven;
   src: url('fonts/MinecraftSeven.woff') format('woff')
