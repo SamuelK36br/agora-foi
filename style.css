@@ -1,10 +1,12 @@
-@font-face{
-  font-family: minecraft;
-  src: url('fonts/minecraft.ttf') format('truetype')
-}
+/*Fonte usada nos TEXTOS IMPORTANTES:*/
 @font-face{
   font-family: mine-titulo;
   src: url('fonts/mine-titulo.ttf') format('truetype')
+}
+/*/*Fonte usada como TEXTO PADRÃO:*/*/
+@font-face {
+  font-family: minecraftseven;
+  src: url('fonts/MinecraftSeven.woff') format('woff')
 }
 body {
   background-color: #64442c;
@@ -19,39 +21,21 @@ body {
   padding: 5.5px 0 2px 0;
 }
 .intro-p{
-  font-family: minecraft;
-  font-size: 14px;
+  font-family: minecraftseven;
+  font-size: 16px;
   color: white;
   background-color: #ac7c54;
   border: green solid 10px;
-  padding: 4px 0 3px 0;
+  padding: 0px 0 3px 0;
   margin: 0px 0 5px 0;
 }
 .info{
-  font-family: minecraft;
+  font-family: minecraftseven;
+  font-size: 18px;
   background-color: #bcbcbc;
   border: #424242 solid 8px;
   margin: 0px 0% 40px 0%;
-  padding: 5px 0 5px 0;
-}
-.fotos-h{
-  font-family: mine-titulo;
-  background-color: white;
-  border: #6cc44c solid 8px;
-  border-radius: 20px;
-  margin: 40px 25% 10px 25%;
-  padding: 2px 0 0 0;
-}
-.data{
-  font-family: minecraft;
-  font-size: 20px;
-  font-weight: normal;
-  text-align: left;
-  color: yellow;
-  background-color: #ac7c54;
-  border: green solid 6px;
-  padding: 8px 0 3px 5px;
-  margin: 0 20% 5px 0px;
+  padding: 0px 0 5px 0;
 }
 .registros{
   font-family: mine-titulo;
@@ -61,14 +45,33 @@ body {
   margin: 0px 15% 10px 15%;
 }
 .registros-p{
-  font-family: minecraft;
-  font-size: 14px;
+  font-family: minecraftseven;
+  font-size: 16px;
   text-align: left;
   color: white;
   background-color: #ac7c54;
   border: green solid 10px;
-  padding: 7px 0 5px 5px;
+  padding: 0px 0 5px 5px;
   margin: 0px 0 5px 0;
+}
+.fotos{
+  font-family: mine-titulo;
+  background-color: white;
+  border: #6cc44c solid 8px;
+  border-radius: 20px;
+  margin: 40px 25% 10px 25%;
+  padding: 2px 0 0 0;
+}
+.data{
+  font-family: minecraftseven;
+  font-size: 20px;
+  font-weight: normal;
+  text-align: left;
+  color: yellow;
+  background-color: #ac7c54;
+  border: green solid 6px;
+  padding: 0px 0 3px 5px;
+  margin: 0 20% 5px 0px;
 }
 img{
   width: 97%; height: 240px;
@@ -79,13 +82,13 @@ img{
   height: 150px;
 }
 .leg{
-  font-family: minecraft;
-  font-size: 15px;
+  font-family: minecraftseven;
+  font-size: 19px;
   color: white;
   background-color: saddlebrown;
   border: #ac7c54 solid 3px;
   margin: 0 0 30px 0;
-  padding: 6px 4px 5px 4px;
+  padding: 0px 4px 3px 4px;
 }
 a {
   color: red;
